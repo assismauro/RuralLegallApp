@@ -1,7 +1,11 @@
 from flask import Flask
 from flask import render_template
 
-app = Flask(__name__)
+__name__ = '__main__' #?
+
+import support.app_object as app_object
+
+app = app_object.app
 
 
 @app.route('/')
@@ -10,4 +14,4 @@ def home():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000, debug=True, use_reloader=False)
