@@ -6,3 +6,10 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/.idea/
+misc.xml
+modeles.xml
+RoralLegallApp.iml
+vcs.xml
+workspace.xml
+inspectionProfiles\
