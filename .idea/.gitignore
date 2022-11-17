@@ -12,4 +12,5 @@ modeles.xml
 RoralLegallApp.iml
 vcs.xml
 workspace.xml
-inspectionProfiles\
+/.idea/inspectionProfiles/
+profiles_settings.xml
