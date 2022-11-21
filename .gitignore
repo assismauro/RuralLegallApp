@@ -1,3 +1,5 @@
 .vscode/iisexpress.json
 .vscode/launch.json
+mgd-test.py
+mgd-notes.txt
 __pycache__/
